@@ -2,11 +2,13 @@
 Firefox addon to force loading the mobile version of theregister.co.uk
 
 # Installation
-Download the Mozilla Add-on SDK: https://developer.mozilla.org/en-US/Add-ons/SDK
+Download/install node package manager (npm).
+
+Install jpm (npm install jpm --global).
 
 Clone the this repo.
 
-cfx xpi --force-mobile
+jpm xpi
 
 Copy the resulting xpi onto your phone.
 
