@@ -1,7 +1,7 @@
 {
   "title": "Register Mobilizer",
   "name": "register-mobilizer",
-  "version": "0.2",
+  "version": "0.2.1",
   "id": "jid1-KAWLvJ1snDmElw@jetpack",
   "description": "Forces loading m.theregister.co.uk",
   "main": "index.js",
@@ -9,14 +9,6 @@
   "engines": {
     "fennec": ">=38.0a1"
   },
-  "preferences": [{
-    "name": "debugging",
-    "title": "Debugging",
-    "description": "Enable/disable debugging",
-    "type": "bool",
-    "value": false,
-    "hidden": true
-  }],
   "license": "MIT",
   "keywords": [
     "jetpack"
